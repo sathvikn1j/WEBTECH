@@ -1,0 +1,75 @@
+/* Friends */
+.friend-list {
+	max-width: 1140px;
+	margin: 10px auto;
+}
+
+.friend-list div {
+	border: 0.5px groove;
+	background-color: white;
+	padding: 30px;
+	height: 100px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+
+.friend-list img {
+	width: 50px;
+	height: 50px;
+	border-radius: 150px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	fit: cover;
+}
+
+.name a {
+	text-decoration: none;
+	color: #2929a3;
+	border-bottom: none;
+	margin-top: 10px;
+}
+
+.name a:hover {
+	border-bottom: 1px solid #2929a3;
+}
+
+.friend-list ul {
+	list-style: none;
+	background-color: inherit;
+}
+
+.friend-list li {
+	display: inline-block;
+	padding: 8px 0;
+}
+
+.name {
+	margin-right: 100px;
+}
+
+.friend-list button {
+	background-color: white;
+	border: 2px solid #2929a3;
+    color: #2929a3;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+	border-radius: 20px;
+	margin-left: 80px;
+	margin-top: -10px;
+}
+
+.friend-list button:hover {
+	background-color: #2929a3;
+    color: white;
+}
+
+.friend_message {
+	display: inline-block;
+	color: #2929a3;
+}
+
